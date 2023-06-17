@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.container-fluid{
+    margin-left: 100px;
+}
+.navbar-nav{
+    margin-left: 330px;
+}
+.img{
+    height:550px;
+    width: 550px;
+}
+.img-1{
+    width: 20px;
+    margin-top: -20px;
+}
+.div{
+    display: flex;
+}
+.div1{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    gap: 10px;
+    padding-top: 15px;
+    margin-left: -250px;
+    margin-top: 220px;
+    border-left: 5px solid rgb(34, 34, 255);
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.div2{
+   margin-left: 80px;
+}
+.div3{
+    display: flex;
+}
+.div4{
+    display: flex;
+}
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    .container-fluid{
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        margin-left: 400px;
+    }
+    .div{
+        flex-direction: column-reverse;
+        margin-top: -250px;
+    }
+    .div1{
+        margin-left: 0;
+    }
+    .div2{
+        margin-left: 0;
+    }
+    .div3{
+        flex-direction: column-reverse;
+    }
+    .div4{
+        flex-direction: column;
+    }
+}
